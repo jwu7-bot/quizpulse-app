@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566364866432",
+    "project_id": "quizpulse-app",
+    "storage_bucket": "quizpulse-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566364866432:android:532036cbd9d4c90f66a365",
+        "android_client_info": {
+          "package_name": "com.example.quizpulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdLX-rKSuw1mwdVgQCopPzOWxjm1JeRDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
