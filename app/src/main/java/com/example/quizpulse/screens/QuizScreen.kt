@@ -1,5 +1,6 @@
 package com.example.quizpulse.screens
 
+import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.util.Log
 import androidx.compose.foundation.BorderStroke
@@ -43,6 +44,9 @@ import com.example.quizpulse.api.QuestionsManager
 import com.example.quizpulse.utils.categoryMap
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 /**
  * Quiz Screen with multiple-choice questions
@@ -54,6 +58,7 @@ import com.google.firebase.firestore.FirebaseFirestore
  * @param difficulty Difficulty of the quiz
  * @param fs_db FirebaseDatabase
  */
+@SuppressLint("SimpleDateFormat")
 @Composable
 fun QuizScreen(
     navController: NavHostController,
@@ -224,6 +229,23 @@ fun QuizScreen(
                             } else {
                                 // Go to result screen when all questions are answered
                                 navController.navigate("resultScreen/${category}/${difficulty}/${score}")
+                                val userScore = hashMapOf(
+                                    "userEmail" to FirebaseAuth.getInstance().currentUser?.email,
+                                    "category" to category,
+                                    "difficulty" to difficulty,
+                                    "score" to score,
+                                    "date" to SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(Date()),
+                                    "time" to SimpleDateFormat("HH:mm:ss z", Locale.getDefault()).format(Date())
+                                )
+
+                                fs_db.collection("userScore")
+                                    .add(userScore)
+                                    .addOnSuccessListener { documentReference ->
+                                        Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
+                                    }
+                                    .addOnFailureListener { e ->
+                                        Log.w(TAG, "Error adding document", e)
+                                    }
                             }
                             // Go to next question
                             questionManager.nextQuestion()
@@ -231,22 +253,6 @@ fun QuizScreen(
                             // Reset state after navigation
                             selectedAnswer.value = null
                         }
-
-                        val userScore = hashMapOf(
-                            "userId" to FirebaseAuth.getInstance().currentUser?.email,
-                            "category" to category,
-                            "difficulty" to difficulty,
-                            "score" to score
-                        )
-
-                        fs_db.collection("userScore")
-                            .add(userScore)
-                            .addOnSuccessListener { documentReference ->
-                                Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
-                            }
-                            .addOnFailureListener { e ->
-                                Log.w(TAG, "Error adding document", e)
-                            }
                     },
                     modifier = Modifier
                         .width(150.dp)
