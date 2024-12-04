@@ -1,4 +1,4 @@
-package com.example.quizpulse
+package com.example.quizpulse.activities
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -44,8 +44,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.quizpulse.activities.HowToPlayActivity
-import com.example.quizpulse.activities.SignInActivity
 import com.example.quizpulse.api.QuestionsManager
 import com.example.quizpulse.db.AppDatabase
 import com.example.quizpulse.destinations.Destination

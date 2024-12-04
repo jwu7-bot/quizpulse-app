@@ -47,7 +47,7 @@ import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
 import com.example.quizpulse.activities.ForgotPasswordActivity
-import com.example.quizpulse.MainActivity
+import com.example.quizpulse.activities.MainActivity
 import com.example.quizpulse.R
 import com.example.quizpulse.activities.SignUpActivity
 import com.google.firebase.auth.FirebaseAuth

@@ -233,7 +233,7 @@ fun QuizScreen(
                         }
 
                         val userScore = hashMapOf(
-                            "userId" to FirebaseAuth.getInstance().currentUser?.uid,
+                            "userId" to FirebaseAuth.getInstance().currentUser?.email,
                             "category" to category,
                             "difficulty" to difficulty,
                             "score" to score

@@ -30,6 +30,8 @@ import com.google.firebase.firestore.FirebaseFirestore
  *
  * @param navController: The NavHostController to navigate to other screens
  * @param modifier: The modifier for this composable
+ * @param category The category for this composable
+ * @param difficulty The difficulty for this composable
  * @param score: The final score obtained by the user
  */
 @Composable

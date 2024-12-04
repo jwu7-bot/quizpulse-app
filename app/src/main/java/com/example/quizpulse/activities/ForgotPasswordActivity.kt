@@ -16,6 +16,9 @@ import com.example.quizpulse.ui.theme.QuizpulseTheme
  * ForgotPasswordActivity class that extends ComponentActivity
  */
 class ForgotPasswordActivity : ComponentActivity(){
+    /**
+     * onCreate method to set the content of the ForgotPasswordActivity.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

@@ -12,7 +12,13 @@ import androidx.compose.ui.Modifier
 import com.example.quizpulse.screens.HowToPlayScreen
 import com.example.quizpulse.ui.theme.QuizpulseTheme
 
+/**
+ * ForgotPasswordActivity class that extends ComponentActivity
+ */
 class HowToPlayActivity : ComponentActivity() {
+    /**
+     * onCreate method to set the content of the HowToPlayActivity.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.example.quizpulse.MainActivity
 import com.example.quizpulse.screens.SignInScreen
 import com.example.quizpulse.ui.theme.QuizpulseTheme
 import com.google.firebase.auth.FirebaseAuth

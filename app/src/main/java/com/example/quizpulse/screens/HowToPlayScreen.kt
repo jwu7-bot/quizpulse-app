@@ -26,7 +26,7 @@ import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
-import com.example.quizpulse.MainActivity
+import com.example.quizpulse.activities.MainActivity
 import com.example.quizpulse.R
 
 /**
