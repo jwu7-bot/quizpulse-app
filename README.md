@@ -39,7 +39,7 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 ---
 
 ## Project Structure
-
+tree
 com.example.quizpulse/
 ├── activities/
 │   ├──  ForgotPasswordActivity.kt
