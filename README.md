@@ -7,7 +7,7 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 
 ## Features
 - **Categories & Difficulty Levels**: Users can choose from a variety of categories and different difficulty levels.
-- **Darkmode and Lightmode: User can choose between dark or light mode.
+- **Darkmode and Lightmode**: User can choose between dark or light mode.
 - **Firebase Integration**: Scores and user data are stored in Firebase Firestore.
 - **Result Screen**: After completing a quiz, the app displays a result screen with the user's score.
 - **Top Scores**: Users can see the top 3 scores in each category and difficulty.
