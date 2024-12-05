@@ -16,22 +16,24 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 
 ## Screenshots
 
+<img src="" width="200" height="auto" />
+
 <img src="https://github.com/user-attachments/assets/642447af-c5a7-406f-8fb5-8a3896b06081" width="200" height="auto" />
 *Sign In Screen*
 
-![category](https://github.com/user-attachments/assets/def09fd6-3b74-40c7-87cd-153512299afc)
+<img src="https://github.com/user-attachments/assets/def09fd6-3b74-40c7-87cd-153512299afc" width="200" height="auto" />
 *Category Screen*
 
-![game](https://github.com/user-attachments/assets/4b07104c-8d70-4b2c-85cf-cfd6caf55bfe)
+<img src="https://github.com/user-attachments/assets/4b07104c-8d70-4b2c-85cf-cfd6caf55bfe" width="200" height="auto" />
 *Game Screen*
 
-![darkmode](https://github.com/user-attachments/assets/c638a777-53f0-4f63-ab04-708728d42672)
+<img src="https://github.com/user-attachments/assets/c638a777-53f0-4f63-ab04-708728d42672" width="200" height="auto" />
 *Darkmode*
 
-("![result](https://github.com/user-attachments/assets/d25f8d1f-56a0-4b01-b5c7-f9fd013b76cb))
+<img src="https://github.com/user-attachments/assets/c638a777-53f0-4f63-ab04-708728d42672" width="200" height="auto" />
 *Result Screen*
 
-![topscore](https://github.com/user-attachments/assets/fa9f7975-87e3-4fea-b39b-8d58f5164434)
+<img src="https://github.com/user-attachments/assets/c638a777-53f0-4f63-ab04-708728d42672" width="200" height="auto" />
 *Top Score Screen*
 
 ---
