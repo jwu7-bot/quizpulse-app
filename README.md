@@ -39,7 +39,7 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 ---
 
 ## API Integrations
-**Open Trivia Database*** <a href="https://opentdb.com/api_config.php">link</a>
+**Open Trivia Database** <a href="https://opentdb.com/api_config.php">link</a>
 
 ---
 
