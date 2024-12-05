@@ -15,24 +15,17 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 ---
 
 ## Screenshots
-
-*Sign In Screen*
 <img src="https://github.com/user-attachments/assets/e4e6dae2-49b6-4333-bed6-fada102bc4d8" width="200" height="auto" />
 
 <img src="https://github.com/user-attachments/assets/e8e31ae3-8dcb-4efd-a598-cb8173aa2d62" width="200" height="auto" />
-*Category Screen*
 
 <img src="https://github.com/user-attachments/assets/3bf554b8-f0b3-4199-bc0e-0a16b644d5ff" width="200" height="auto" />
-*Game Screen*
 
 <img src="https://github.com/user-attachments/assets/f5b48f93-8261-44b4-a729-64cd0ed3b221" width="200" height="auto" />
-*Darkmode*
 
 <img src="https://github.com/user-attachments/assets/dc317dd6-b2b6-4022-898f-87bfc85d0b51" width="200" height="auto" />
-*Result Screen*
 
 <img src="https://github.com/user-attachments/assets/5a89e16b-df45-4a2a-bf84-6c1d9d2ec3bc" width="200" height="auto" />
-*Top Score Screen*
 
 ---
 
