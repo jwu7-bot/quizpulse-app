@@ -1,7 +1,7 @@
 # Quizpulse
 
 ## Overview
-This is a quiz application built using Jetpack Compose for the UI and Firebase for backend storage. The app allows users to participate in quizzes across different categories and difficulty levels. It keeps track of scores, ranks users, and displays the top scores in each category and difficulty.
+This is a quiz application built using Jetpack Compose for the UI and Firebase for backend storage. The app allows users to participate in quizzes across different categories and difficulty levels. It keeps track of scores, and displays the top scores in each category and difficulty.
 
 ---
 
