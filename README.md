@@ -16,7 +16,7 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 
 ## Screenshots
 
-![signin](https://github.com/user-attachments/assets/642447af-c5a7-406f-8fb5-8a3896b06081)
+<img src="https://github.com/user-attachments/assets/642447af-c5a7-406f-8fb5-8a3896b06081" width="400" height="auto" />
 *Sign In Screen*
 
 ![category](https://github.com/user-attachments/assets/def09fd6-3b74-40c7-87cd-153512299afc)
