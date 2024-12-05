@@ -229,6 +229,8 @@ fun QuizScreen(
                             } else {
                                 // Go to result screen when all questions are answered
                                 navController.navigate("resultScreen/${category}/${difficulty}/${score}")
+
+                                // Add to firebase database
                                 val userScore = hashMapOf(
                                     "userEmail" to FirebaseAuth.getInstance().currentUser?.email,
                                     "category" to category,

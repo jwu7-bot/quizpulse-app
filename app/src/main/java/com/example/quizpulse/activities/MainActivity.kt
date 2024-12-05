@@ -152,6 +152,7 @@ fun App(
                                 tint = MaterialTheme.colorScheme.onSecondary
                             )
                         }
+
                         DropdownMenu(
                             expanded = menuExpanded,
                             onDismissRequest = { menuExpanded = false }
@@ -175,6 +176,18 @@ fun App(
                                     menuExpanded = false
                                 }
                             )
+
+                            // Top Scores
+                            DropdownMenuItem(
+                                text = { Text("Top Scores") },
+                                onClick = {
+                                    menuExpanded = false
+                                    val intent = Intent(context, TopScoresActivity::class.java)
+                                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                                    context.startActivity(intent)
+                                }
+                            )
+
                             // Help
                             DropdownMenuItem(
                                 text = { Text("Help") },
@@ -185,6 +198,7 @@ fun App(
                                     context.startActivity(intent)
                                 }
                             )
+
                             // Logout
                             DropdownMenuItem(
                                 text = { Text("Log Out") },
