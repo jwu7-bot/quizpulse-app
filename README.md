@@ -38,48 +38,8 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 
 ---
 
-## Project Structure
-tree
-com.example.quizpulse/
-├── activities/
-│   ├──  ForgotPasswordActivity.kt
-│   ├──  HowToPlayActivity.kt
-│   ├──  MainActivity.kt
-│   ├──  SignInActivity.kt
-│   ├──  SignUpActivity.kt
-|   └── TopScoreActivity.kt
-|
-├── api/
-│   ├── model/
-│   │   ├── Question
-│   │   └── Result
-│   ├── Api
-│   ├── Converters
-│   ├── QuestionManager
-│   └── QuestionServices
-|
-├── db/
-│   ├── AppDatabase
-│   └── QuestionDao
-|
-├── destinations/
-|   └── Destination
-|
-├── screens/
-│   ├── CategoryScreen
-│   ├── DifficultyScreen
-│   ├── ForgotPasswordScreen
-│   ├── HowToPlayScreen
-│   └── ...
-|
-└── viewmodel/
-    └── ThemeViewModel
-
----
-
 ## API Integrations
 **Open Trivia Database*** <a href="https://opentdb.com/api_config.php">link</a>
-
 
 ---
 
