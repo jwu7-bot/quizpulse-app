@@ -16,24 +16,23 @@ This is a quiz application built using Jetpack Compose for the UI and Firebase f
 
 ## Screenshots
 
-<img src="" width="200" height="auto" />
 
-<img src="https://github.com/user-attachments/assets/642447af-c5a7-406f-8fb5-8a3896b06081" width="200" height="auto" />
+<img src="https://github.com/user-attachments/assets/e4e6dae2-49b6-4333-bed6-fada102bc4d8" width="200" height="auto" />
 *Sign In Screen*
 
-<img src="https://github.com/user-attachments/assets/def09fd6-3b74-40c7-87cd-153512299afc" width="200" height="auto" />
+<img src="https://github.com/user-attachments/assets/e8e31ae3-8dcb-4efd-a598-cb8173aa2d62" width="200" height="auto" />
 *Category Screen*
 
-<img src="https://github.com/user-attachments/assets/4b07104c-8d70-4b2c-85cf-cfd6caf55bfe" width="200" height="auto" />
+<img src="https://github.com/user-attachments/assets/3bf554b8-f0b3-4199-bc0e-0a16b644d5ff" width="200" height="auto" />
 *Game Screen*
 
-<img src="https://github.com/user-attachments/assets/c638a777-53f0-4f63-ab04-708728d42672" width="200" height="auto" />
+<img src="https://github.com/user-attachments/assets/f5b48f93-8261-44b4-a729-64cd0ed3b221" width="200" height="auto" />
 *Darkmode*
 
-<img src="https://github.com/user-attachments/assets/c638a777-53f0-4f63-ab04-708728d42672" width="200" height="auto" />
+<img src="https://github.com/user-attachments/assets/dc317dd6-b2b6-4022-898f-87bfc85d0b51" width="200" height="auto" />
 *Result Screen*
 
-<img src="https://github.com/user-attachments/assets/c638a777-53f0-4f63-ab04-708728d42672" width="200" height="auto" />
+<img src="https://github.com/user-attachments/assets/5a89e16b-df45-4a2a-bf84-6c1d9d2ec3bc" width="200" height="auto" />
 *Top Score Screen*
 
 ---
